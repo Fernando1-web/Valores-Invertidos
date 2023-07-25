@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Valores_Invertidos.MainPage">
+    <ScrollView>
+    <StackLayout Margin="20,35,20,20" Spacing="10">
+        <Image Source="numeros.jpg" HeightRequest="100" WidthRequest="200"/>
+        <Label Text="Inversion Numerica" TextColor="White" FontSize="20"/>
+        <Entry x:Name="Entry1" Placeholder="Ingrese el primer digito"/>
+        <Entry x:Name="Entry2" Placeholder="Ingrese el segundo digito"/>
+        <Entry x:Name="Entry3" Placeholder="Ingrese el tercer digito"/>
+        <Entry x:Name="Entry4" Placeholder="Ingrese el cuarto digito"/>
+        <Entry x:Name="Entry5" Placeholder="Ingrese el quinto digito"/>
+        <Entry x:Name="Entry6" Placeholder="Ingrese el sexto digito"/>
+
+        <Button x:Name="btnInvertir" Clicked="btnInvertir_Clicked" HeightRequest="60" Text="Invertir :3" TextColor="Black"/>
+        <Label Text="Se pudo :3"/>
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>
